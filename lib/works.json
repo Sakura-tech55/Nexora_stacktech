@@ -1,0 +1,2176 @@
+[
+  {
+    "slug": "mystar-lp",
+    "name": "MySTAR",
+    "url": "https://mystar-web.jp/lp/",
+    "category": "lp",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "未経験からWebデザイン・Web制作スキルを習得できるオンラインスクール「MySTAR」の受講生募集LPです。受講生の声や受講後の働き方、生成AI活用、ポートフォリオ制作までのカリキュラムを、悩みの提示から解決へと流れるストーリー構成で訴求しています。WordPress（Astra）で構築し、Swiperによるスライダーと構造化データ・OGP・XMLサイトマップでSEOと拡散性を両立しました。",
+      "en": "A student-recruitment landing page for MySTAR, an online school that teaches web design and production from scratch. It walks visitors from their pain points to the solution through student voices, post-course career paths, generative-AI skills and a portfolio-building curriculum. Built on WordPress (Astra) with Swiper sliders, plus structured data, OGP and an XML sitemap for search and social reach."
+    },
+    "seo": [
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "aigan-pocoprouge",
+    "name": "Aigan POCOP Rouge",
+    "url": "https://www.aigan.co.jp/feature/pocoprouge/",
+    "category": "lp",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Fancybox",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "メガネの愛眼が展開する、メイク映えを意識したアイウェアシリーズ「POCOP Rouge」の特集LPです。「メイクしてから、かけるメガネ」をコンセプトに、Cute・Fresh・Feminineなどテイスト別のラインナップとスタイリング提案を紹介しています。WordPress上にSwiper/Slickのカルーセルを組み込み、パンくず・構造化データ・canonicalなどSEOの基本を網羅しています。",
+      "en": "A feature landing page for POCOP Rouge, Aigan's eyewear line designed to complement makeup. Under the concept \"glasses you put on after your makeup\", it presents the lineup by style — Cute, Fresh, Feminine and more — with styling suggestions. Built on WordPress with Swiper/Slick carousels, and covers SEO essentials including breadcrumbs, structured data and canonical tags."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "Breadcrumbs"
+    ]
+  },
+  {
+    "slug": "aisee-training",
+    "name": "AI業務支援士養成研修",
+    "url": "https://aiseeconnect.co.jp/lp/aiwp-training-program/",
+    "category": "lp",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "内閣府認証NPO法人IT整備士協会が認定する資格講座「AI業務支援士養成研修」の申込LPです。生成AIの基礎から業務活用・リスク管理までを学べる約10時間の講座と資格試験の内容、取得メリットを段階的に説明しています。WordPressで構築し、Swiperによるスライド表現とメタディスクリプション・サイトマップで集客導線を整えました。",
+      "en": "A sign-up landing page for the AI Business Support Specialist training, a certification course accredited by the IT Seibishi Association. It explains, step by step, the ~10-hour course covering generative-AI basics, business use and risk management, the certification exam and its benefits. Built on WordPress with Swiper slides, and a meta description and sitemap to support acquisition."
+    },
+    "seo": [
+      "Meta Description",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "joyfit-kansai",
+    "name": "JOYFIT24 LITE",
+    "url": "https://joyfit.jp/campaign-fblp/6700/kansai/",
+    "category": "lp",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Splide",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "月額3,980円から通える24時間営業ジム「JOYFIT24 LITE」の関西エリア向け入会キャンペーンLPです。おすすめポイントやメリット、アプリでの入会手順、料金表、店舗情報までを1ページで完結させ、Web入会へ誘導します。jQueryとSplideでスライダーを実装し、OGP・Twitterカードで広告やSNSからの流入にも対応しています。",
+      "en": "A Kansai-area membership campaign landing page for JOYFIT24 LITE, a 24-hour gym starting at ¥3,980 per month. It covers highlights, benefits, the in-app sign-up steps, pricing and store locations on one page to drive online sign-ups. Sliders are built with jQuery and Splide, and OGP and Twitter Cards support traffic from ads and social media."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "sp-collect-hololive",
+    "name": "SPcollect × 儒烏風亭らでん",
+    "url": "https://sp-collect.com/jp/hololive-when-raden-meets-art/",
+    "category": "lp",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "GSAP",
+      "Slick",
+      "Barba.js",
+      "Web Fonts"
+    ],
+    "wait": 18000,
+    "desc": {
+      "ja": "SPcollect、ロンドン・ナショナル・ギャラリー、ホロライブ所属VTuber儒烏風亭らでんによるコラボ企画の特設ページです。ターナー、モネ、ゴッホの名画をらでんの視点で再解釈し、イラストと作品解説でアートとの新しい出会いを演出しています。GSAPのアニメーションとBarba.jsによるページ遷移で、没入感のあるギャラリー体験を実現しました。",
+      "en": "A special campaign page for a collaboration between SPcollect, the National Gallery in London and hololive VTuber Juufuutei Raden. It reinterprets masterpieces by Turner, Monet and Van Gogh through Raden's eyes, pairing illustration with commentary to spark new encounters with art. GSAP animation and Barba.js page transitions create an immersive gallery experience."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card"
+    ]
+  },
+  {
+    "slug": "livable-baikyaku",
+    "name": "Tokyu Livable",
+    "url": "https://www.livable.co.jp/baikyaku/lp_b_sp",
+    "category": "lp",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "GSAP",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "viewport": "sp",
+    "desc": {
+      "ja": "東急リバブルの不動産売却査定用ランディングページで、スマートフォンに特化した1カラム構成です。年間取引実績を打ち出したファーストビューから「カンタン60秒入力」の査定フォームへ直結させ、離脱を抑える設計にしています。GSAPで軽快な演出を加えつつ、canonical・OGP・メタ情報を整備し広告運用にも最適化しています。",
+      "en": "A mobile-first, single-column property-sale assessment landing page for Tokyu Livable. The first view leads with annual transaction figures and connects straight into a \"60-second\" assessment form designed to minimize drop-off. GSAP adds light motion, while canonical tags, OGP and meta data are tuned for paid-ad campaigns."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card"
+    ]
+  },
+  {
+    "slug": "alsok-miyagi",
+    "name": "ALSOK宮城",
+    "url": "https://www.miyagi.alsok.co.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Splide",
+      "Lenis",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "宮城県で警備・施設管理・防災サービスを一社で提供するALSOK宮城株式会社の公式コーポレートサイトです。「ALwayS OK / HERE FOR MIYAGI.」のメッセージのもと、サービス紹介・採用情報・お知らせを地域密着の信頼感あるトーンでまとめています。WordPressのオリジナルテーマにSplideとLenisを組み合わせ、滑らかなスクロール体験とOGP・サイトマップを整備しました。",
+      "en": "The official corporate site for ALSOK Miyagi, which provides security, facility management and disaster-prevention services across Miyagi Prefecture. Under the message \"ALwayS OK / HERE FOR MIYAGI.\", it brings together services, recruiting and news in a trustworthy, community-rooted tone. A custom WordPress theme combines Splide and Lenis for smooth scrolling, with OGP and a sitemap in place."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "proteger",
+    "name": "proteger",
+    "url": "https://proteger.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "防衛省・自衛隊の方々に特化したFP（ファイナンシャルプランナー）相談サービスを提供する株式会社protegerのコーポレートサイトです。家計・税金・住宅ローン・保険・年金などの相談内容を、防衛省独自の制度や階級を踏まえたサービスとして分かりやすく紹介しています。WordPressで構築し、Organizationの構造化データ・canonical・OGPまでSEOを網羅しています。",
+      "en": "The corporate site for proteger, a financial-planning consultancy dedicated to Ministry of Defense and Self-Defense Forces personnel. It clearly presents consultations on household finances, taxes, mortgages, insurance and pensions, tailored to the Ministry's unique systems and ranks. Built on WordPress with comprehensive SEO, including Organization structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "onfleek",
+    "name": "Onfleek",
+    "url": "https://onfleek.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "人材紹介・派遣とITソリューションを軸に事業を展開する株式会社Onfleekのコーポレートサイトです。採用からシステムの要件定義・開発・運用保守までワンストップで支援する強みを、サービス・会社紹介・お知らせの構成で伝えています。WordPressのオリジナルテーマで、Contact Form 7のお問い合わせと構造化データ・サイトマップを実装しています。",
+      "en": "The corporate site for Onfleek, whose business centers on staffing, recruitment and IT solutions. It conveys the company's one-stop strength — from hiring to requirements, development, operation and maintenance — through services, company profile and news sections. A custom WordPress theme with a Contact Form 7 inquiry form, structured data and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "cloud-house",
+    "name": "CloudHouse",
+    "url": "https://jp.cloud-house.com/",
+    "category": "corporate",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "大手企業向け統合ITプラットフォーム「クラウドハウス」（株式会社Techouse）のサービスサイトです。人事・労務から経理・購買・生産管理まで、レガシーシステムからの脱却とDXを支援するプラットフォームの価値を、導入企業や選ばれる理由とともに訴求しています。jQueryとSwiperで導入企業ロゴや機能紹介を表現し、OGP・メタ情報でBtoBの検索流入を意識しています。",
+      "en": "The service site for CloudHouse, Techouse's integrated IT platform for large enterprises. It makes the case for moving off legacy systems and driving DX across HR, accounting, purchasing and production, backed by client logos and reasons for choosing it. jQuery and Swiper present client logos and features, with OGP and meta data aimed at B2B search traffic."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "womanstaff",
+    "name": "ウーマンスタッフ",
+    "url": "https://womanstaff.co.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "東京と大阪に拠点を持つ人材派遣会社、ウーマンスタッフ株式会社の公式サイトです。オフィスワーク・図書館業務・試験監督など職種別の入口と、勤務地・職種・特徴から探せる求人クイック検索を備えています。WordPressで求人データを管理し、Slickのスライダーと構造化データ・canonical・サイトマップでSEOを強化しています。",
+      "en": "The official site for Woman Staff, a staffing agency with offices in Tokyo and Osaka. It offers entry points by job type — office work, library services, exam proctoring — and a quick job search by location, role and features. Job data is managed in WordPress, with Slick sliders and SEO strengthened by structured data, canonical tags and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "mirai-jinzai",
+    "name": "みらい人材サポート",
+    "url": "http://mirai-jinzai.career-on.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Splide",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "名古屋を拠点に東海エリアで人材紹介を行う、みらい人材サポート株式会社のコーポレートサイトです。「はたらく明日を笑顔に」というミッションを、ミッションストーリーと事業内容、お知らせで温かみのあるビジュアルとともに伝えています。WordPressにSlick・Splideを組み合わせたメインビジュアルを実装し、構造化データ・OGP・サイトマップを整備しました。",
+      "en": "The corporate site for Mirai Jinzai Support, a Nagoya-based recruitment agency serving the Tokai region. It communicates its mission — \"a smiling tomorrow at work\" — through a mission story, services and news with warm visuals. WordPress with a Slick/Splide-powered main visual, plus structured data, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "ansei",
+    "name": "アンセイ",
+    "url": "https://www.ansei.co.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "1947年創業、自動車の重要保安部品を開発・製造する株式会社アンセイのコーポレートサイトです。開発から製造まで一貫した工程システムによる、安全・高品質・低コストなものづくりの姿勢を伝えています。WordPressのオリジナルテーマで構築し、構造化データ・canonical・OGP・サイトマップによりSEOの基盤を整えています。",
+      "en": "The corporate site for ANSEI, founded in 1947, which develops and manufactures critical automotive safety parts. It conveys the company's integrated development-to-production approach to safe, high-quality, cost-efficient manufacturing. Built on a custom WordPress theme with an SEO foundation of structured data, canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "hardolass",
+    "name": "ハドラスホールディングス",
+    "url": "https://www.hardolass.com/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "「常識を塗り替える」をテーマに、ナノマテリアルコーティングを研究開発するベンチャー、ハドラスホールディングスのコーポレートサイトです。R&D・会社概要・ニュース・トピックスを通じて、持続可能な社会に向けた技術力を発信しています。WordPressにSwiperを組み込み、構造化データ・canonical・OGPでSEOを網羅しています。",
+      "en": "The corporate site for HARDOLASS Holdings, a nanotech venture developing nanomaterial coatings under the theme \"rewriting the norm\". It showcases the company's technology for a sustainable society through R&D, company profile, news and topics. WordPress with Swiper, and full SEO coverage via structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "world-com",
+    "name": "リプロワールド",
+    "url": "https://www.world-com.co.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "事故車買取のパイオニアとして40年以上の実績を持つ、株式会社リプロワールド（USSグループ）のコーポレートサイトです。選ばれる理由、事業紹介・支店一覧、企業情報、採用情報を整理し、高価買取の信頼性を伝えています。WordPressのオリジナルテーマにSwiperを実装し、構造化データ・canonical・OGP・サイトマップでSEOを強化しました。",
+      "en": "The corporate site for Repro World (USS Group), a pioneer in buying accident-damaged cars with over 40 years of track record. It organizes reasons to choose them, business overview and branch list, company info and recruiting to convey trust in their high-value purchasing. A custom WordPress theme with Swiper, and SEO strengthened by structured data, canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "kougarou",
+    "name": "煌雅楼",
+    "url": "https://kougarou.fab-ride.com/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Fancybox",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "埼玉県所沢市のカーコーティング・ウィンドウフィルム・ラッピング・洗車専門店「煌雅楼（こうがろう）」の公式サイトです。コンセプト、サービス、施工事例、お客様の声、店舗情報を通じて、熟練技術者による高品質な施工の魅力を伝えています。WordPressとJavaScript（jQuery・Swiper・Slick・Fancybox）で構築し、All in One SEO・構造化データ・canonical・XMLサイトマップでSEO機能を完全に実装しています。",
+      "en": "The official site for Kougarou, a car coating, window film, wrapping and detailing specialist in Tokorozawa, Saitama. It conveys the appeal of high-quality work by skilled technicians through its concept, services, case studies, reviews and shop info. Built with WordPress and JavaScript (jQuery, Swiper, Slick, Fancybox), with fully implemented SEO: All in One SEO, structured data, canonical tags and an XML sitemap."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "smiee",
+    "name": "Smiee",
+    "url": "https://smiee.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "GSAP",
+      "ScrollTrigger",
+      "Swiper",
+      "Slick",
+      "Lenis",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "Web制作・マーケティング・システム開発・ブランディングを通じて事業の創出・承継・成長を支援する、株式会社Smieeのコーポレートサイトです。「つくる会社」から「事業を支える会社」へというコンセプトと事業領域を、メッセージ性の強いコピーで伝えています。WordPressにGSAP（ScrollTrigger）・Lenis・Swiperを組み合わせたスクロール演出を実装し、All in One SEOと構造化データでSEOも完備しています。",
+      "en": "The corporate site for Smiee, a creative company supporting business creation, succession and growth through web production, marketing, system development and branding. Its shift from \"a company that makes things\" to \"a company that supports businesses\" is told through bold, message-driven copy. WordPress with GSAP (ScrollTrigger), Lenis and Swiper scroll effects, and complete SEO via All in One SEO and structured data."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "meglia-recruit",
+    "name": "MEGLiA 採用サイト",
+    "url": "https://meglia-recruit.com/",
+    "category": "recruit",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "トヨタ生活協同組合（MEGLiA）の採用サイトです。「誰かの毎日に、寄り添う」仕事を、仕事紹介・社員インタビュー・働く環境・募集要項の流れで伝え、エントリーへ導きます。WordPressのオリジナルテーマにSwiperとContact Form 7を実装し、構造化データ・canonical・OGPでSEOを整えています。",
+      "en": "The recruiting site for MEGLiA (Toyota Co-op). It conveys work that \"stays close to someone's everyday life\" through job overviews, employee interviews, the working environment and requirements, leading to entry. A custom WordPress theme with Swiper and Contact Form 7, and SEO via structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "bellpark-recruit",
+    "name": "ベルパーク 採用サイト",
+    "url": "https://bellpark-recruit.jp/",
+    "category": "recruit",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "キャリアショップ運営を中心に展開する株式会社ベルパークの採用サイトです。業界トップクラスの接客力、未経験でも安心の育成体制、上場企業の安定性といった魅力を、社員の声と採用情報で伝えています。jQueryとSlickでインタビューのスライダーを実装し、OGP・メタ情報でSNSからの応募導線を整えました。",
+      "en": "The recruiting site for Bell Park, which mainly operates mobile carrier shops. It conveys the appeal of top-class customer service, training that welcomes beginners and the stability of a listed company through staff voices and job info. jQuery and Slick power the interview sliders, with OGP and meta data supporting applications from social media."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP"
+    ]
+  },
+  {
+    "slug": "datumstudio-recruit",
+    "name": "DATUM STUDIO 新卒採用",
+    "url": "https://recruit.datumstudio.jp/",
+    "category": "recruit",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "GSAP",
+      "ScrollTrigger",
+      "Swiper",
+      "Tailwind CSS",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "データ分析・AI開発を手がけるDATUM STUDIO株式会社の新卒採用サイトです。事業内容やプロジェクト事例、社員インタビュー、数字で見る会社データ、働く環境を通じて、データサイエンティストとしてのキャリアを描けるようにしています。WordPressにGSAP（ScrollTrigger）・Swiper・Tailwind CSSを組み合わせ、構造化データ・canonical・サイトマップまで実装しました。",
+      "en": "The new-graduate recruiting site for DATUM STUDIO, a data-analytics and AI development firm. Through its business, project cases, employee interviews, company data in numbers and work environment, it helps candidates picture a career as a data scientist. WordPress combined with GSAP (ScrollTrigger), Swiper and Tailwind CSS, plus structured data, canonical tags and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "ja-amenityhouse",
+    "name": "JAアメニティーハウス キャリア採用",
+    "url": "https://career.ja-amenityhouse.co.jp/",
+    "category": "recruit",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery"
+    ],
+    "desc": {
+      "ja": "株式会社ジェイエーアメニティーハウスのキャリア（中途）採用サイトです。「新しい挑戦を、ここで始めよう！」をテーマに、募集ポジション、サポート体制、職場環境の魅力を親しみやすいトーンで紹介しています。WordPressのオリジナルテーマで構築し、メタディスクリプションとXMLサイトマップで検索流入に対応しています。",
+      "en": "The mid-career recruiting site for JA Amenity House. Under the theme \"Start your new challenge here!\", it introduces open positions, support systems and the appeal of the workplace in a friendly tone. Built on a custom WordPress theme, with a meta description and XML sitemap for search traffic."
+    },
+    "seo": [
+      "Meta Description",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "bruder",
+    "name": "ブリューダ",
+    "url": "https://bruder.co.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Fancybox",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "神奈川県相模原市を拠点に人材派遣・業務請負を行う株式会社ブリューダのコーポレートサイトです。製造・流通・物流分野の求人情報と、企業担当者向けのサービス案内、登録から就業までの流れを分かりやすく整理しています。WordPress（Lightning）にSwiper・Fancyboxを実装し、All in One SEOとFAQPageを含む構造化データでSEOを強化しています。",
+      "en": "The corporate site for Bruder, a staffing and contracting company based in Sagamihara, Kanagawa. It clearly organizes manufacturing, distribution and logistics job listings, services for corporate clients and the path from registration to employment. WordPress (Lightning) with Swiper and Fancybox, and SEO strengthened by All in One SEO and structured data including FAQPage."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "kamagaya-recruit",
+    "name": "鎌ケ谷総合病院 採用サイト",
+    "url": "https://recruit.kamagaya-hp.jp",
+    "category": "recruit",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "千葉県鎌ケ谷市の鎌ケ谷総合病院が運営する看護師・医療スタッフ向けの採用サイトです。「ここで積む場数は、絶対にあなたを裏切らない。」のコピーのもと、院内ギャラリー、福利厚生、病院長挨拶、募集職種を紹介しています。jQueryとSlickで院内写真のスライダーを実装し、OGP・サイトマップで求職者の検索に対応しています。",
+      "en": "The recruiting site for nurses and medical staff at Kamagaya General Hospital in Chiba. Under the line \"The experience you gain here will never let you down\", it presents a hospital gallery, benefits, the director's message and open positions. jQuery and Slick drive the photo sliders, with OGP and a sitemap for job seekers' searches."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "kobe-yl",
+    "name": "神戸ヤクルト ヤクルトレディ採用",
+    "url": "https://kobe-yl.jp/",
+    "category": "recruit",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Splide",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 30000,
+    "desc": {
+      "ja": "地域に健康を届ける神戸ヤクルト販売株式会社の、ヤクルトレディ採用サイトです。仕事の紹介、支える社員のクロストーク、ヤクルトレディのインタビュー、ブログ、募集要項までを通じて、安心して働ける理由を伝えています。WordPressにSplideのスライダーを実装し、ローディング演出から一貫した世界観と、パンくず構造化データ・canonical・OGPを整備しました。",
+      "en": "The Yakult Lady recruiting site for Kobe Yakult Sales, which delivers health to the local community. Through job introductions, a staff crosstalk, Yakult Lady interviews, a blog and requirements, it explains why this is a reassuring place to work. WordPress with Splide sliders, a consistent visual identity from the loading screen onward, and breadcrumb structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "kowapets",
+    "name": "コーワペッツ",
+    "url": "https://www.kowapets.co.jp/",
+    "category": "animal",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "全国120店舗以上を展開するペットショップ「コーワペッツ・ペッツフレンズ」の公式サイトです。新着の子犬・子猫の紹介、安心への取り組み、サービス案内、お知らせをまとめ、ホームセンター内店舗への来店を促しています。WordPressのオリジナルテーマにSwiperとContact Form 7を実装し、構造化データ・canonical・OGPでSEOを網羅しています。",
+      "en": "The official site for Kowa Pets / Pets Friends, a pet-shop chain with more than 120 stores nationwide. It brings together newly arrived puppies and kittens, its commitment to peace of mind, services and news to drive visits to its in-store locations. A custom WordPress theme with Swiper and Contact Form 7, and comprehensive SEO via structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "kowapets-stay",
+    "name": "わんわんトライアル",
+    "url": "https://stay.kowapets.co.jp/",
+    "category": "animal",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "コーワペッツが提供する、子犬との1泊2日の暮らし体験サービス「わんわんトライアル」の紹介サイトです。サービスの想い、おすすめの方、実施店舗、事前準備、トライアルの流れ、FAQまでを1ページにまとめ、安心して家族を迎えられるよう案内しています。jQueryでインタラクションを実装し、OGP・サイトマップで情報を届けやすくしています。",
+      "en": "The site for Wan-Wan Trial, Kowa Pets' service that lets families try living with a puppy for one night. It covers the idea behind the service, who it's for, participating stores, preparation, the trial flow and FAQs on one page to help families welcome a new member with confidence. Interactions are built with jQuery, with OGP and a sitemap for discoverability."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "food-care",
+    "name": "フードケア",
+    "url": "https://www.food-care.co.jp/",
+    "category": "food",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "神奈川県相模原市の介護食品メーカー、株式会社フードケアの公式サイトです。咀嚼・嚥下補助食品などの製品情報、オリジナルレシピ、お役立ち情報、サンプル・資料請求の導線を医療・介護施設向けに整理しています。WordPressのオリジナルテーマにSwiperを組み込み、構造化データ・canonical・OGPでSEOを網羅しています。",
+      "en": "The official site for Food Care, a care-food manufacturer in Sagamihara, Kanagawa. It organizes product information on chewing and swallowing aids, original recipes, useful information and sample/brochure requests for medical and care facilities. A custom WordPress theme with Swiper, and comprehensive SEO via structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "topfoods",
+    "name": "トップフーズグループ",
+    "url": "https://topfoods.biz/",
+    "category": "food",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Splide"
+    ],
+    "desc": {
+      "ja": "食品の輸入から食肉加工品・惣菜の製造卸、商品開発、飲食、ギフトまで手がけるトップフーズグループの公式サイトです。創業50年の歩みと事業・グループの全体像を、「“食べる”日常を支える」というストーリーで紹介しています。WordPressのオリジナルテーマにSplideを実装し、メタディスクリプションとサイトマップを整備しました。",
+      "en": "The official site for the Top Foods Group, which spans food imports, wholesale manufacturing of processed meats and prepared foods, product development, restaurants and gifts. It presents the group's 50-year history and business structure through the story of \"supporting everyday eating\". A custom WordPress theme with Splide, plus a meta description and sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "boniq",
+    "name": "BONIQ",
+    "url": "https://boniq.store/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "グッドデザイン賞などを受賞した低温調理器「BONIQ（ボニーク）」の公式オンラインショップです。製品の特長、スターターセット、商品一覧、TVCM情報、低温調理レシピを組み合わせ、「健やかでゆとりある暮らし」を提案しながら購入へつなげています。Shopify（Liquid）で構築し、OnlineStoreを含む構造化データ・canonical・OGPでEC向けSEOを実装しています。",
+      "en": "The official online shop for BONIQ, an award-winning sous-vide cooker including a Good Design Award. It combines product features, starter sets, the product lineup, TV-commercial info and sous-vide recipes to propose a healthier, more relaxed lifestyle and lead to purchase. Built on Shopify (Liquid) with e-commerce SEO, including OnlineStore structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "noda-kamada",
+    "name": "野田鎌田学園",
+    "url": "https://noda-kamada.ac.jp/",
+    "category": "school",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Bootstrap",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "調理師免許と高校卒業資格を同時に取得できる高等専修学校などを運営する、学校法人野田鎌田学園の公式サイトです。杉並・横浜を含む各校の紹介と、名門ホテル・レストランへの就職実績を打ち出し、受験生と保護者に学びの価値を伝えています。WordPressにSlick・Bootstrapを組み合わせ、Contact Form 7と構造化データ・canonical・OGPを実装しました。",
+      "en": "The official site for Noda Kamada Academy, whose vocational high school lets students earn a chef's license and a high-school diploma at the same time. It introduces each campus, including Suginami and Yokohama, and highlights placements at renowned hotels and restaurants to show prospective students and parents the value of the program. WordPress with Slick and Bootstrap, plus Contact Form 7, structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "rivets-pop",
+    "name": "Rivets Pop Education",
+    "url": "https://rivets-pop.jp/",
+    "category": "school",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "東京・神奈川でチアダンス・チアスクールを展開する「Rivets Pop Education」の公式サイトです。3つの特徴、スクールと料金、保護者の声、インストラクター紹介、Instagram連携から無料体験レッスンの申し込みへと導きます。WordPressにSwiper・Slickでポップな動きを加え、構造化データ・canonical・OGPでSEOを整えています。",
+      "en": "The official site for Rivets Pop Education, a cheer and cheer-dance school operating in Tokyo and Kanagawa. It leads from its three key features, classes and pricing, parent testimonials, instructor profiles and Instagram integration to free trial-lesson sign-ups. WordPress with Swiper and Slick for playful motion, and SEO via structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "starboard",
+    "name": "StarBoard",
+    "url": "https://starboard-solutions.co.jp/",
+    "category": "corporate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "世界80カ国以上・50万台以上の導入実績を持つ電子黒板「StarBoard」のブランドサイトです。製品サポート、教育機関などへの導入事例、お知らせ、資料請求・お問い合わせへの導線をBtoB向けに整理しています。WordPressのオリジナルテーマで構築し、構造化データ・canonical・OGP・サイトマップでSEOを網羅しています。",
+      "en": "The brand site for StarBoard, an interactive whiteboard with over 500,000 units installed in more than 80 countries. It organizes product support, case studies from schools and other institutions, news and paths to brochure requests and inquiries for B2B visitors. Built on a custom WordPress theme with comprehensive SEO via structured data, canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "kinran-cheer",
+    "name": "千里金蘭大学 受験生応援サイト",
+    "url": "https://www.kinran.ac.jp/cheer/",
+    "category": "school",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "大阪府吹田市の女子大学、千里金蘭大学が高校生・受験生に向けて運営する受験生応援サイトです。管理栄養士・保育士・看護師などをめざせる学びの紹介に加え、入試情報、オープンキャンパス、受験生応援ブログを発信しています。jQueryとSlickでスライダーを実装し、Webフォントで大学らしい上品なタイポグラフィを表現しています。",
+      "en": "The prospective-student site run by Senri Kinran University, a women's university in Suita, Osaka. Beyond introducing programs leading to careers as dietitians, nursery teachers and nurses, it publishes admissions info, open-campus details and a student blog. jQuery and Slick power the sliders, and web fonts give it refined, university-appropriate typography."
+    },
+    "seo": [
+      "Meta Description",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "h-chuo",
+    "name": "八王子中央自動車学校",
+    "url": "https://h-chuo.co.jp/",
+    "category": "driving",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Fancybox",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "JR・京王八王子駅から最も近い、東京都公安委員会指定の八王子中央自動車学校の公式サイトです。料金・プラン、入校特典、学校の魅力、よくある質問を整理し、普通車・二輪の入校検討者がスムーズに申し込めるよう設計しています。WordPressにSwiper・Fancyboxを実装し、メタディスクリプション・OGP・サイトマップで地域検索に対応しています。",
+      "en": "The official site for Hachioji Chuo Driving School, the closest designated driving school to JR and Keio Hachioji stations. It organizes pricing and plans, enrollment perks, the school's highlights and FAQs so prospective car and motorcycle students can apply smoothly. WordPress with Swiper and Fancybox, plus meta descriptions, OGP and a sitemap for local search."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "showa-ds",
+    "name": "昭和自動車学校",
+    "url": "https://showa-ds.co.jp/",
+    "category": "driving",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "愛知県春日井市で60年にわたり選ばれ続けている昭和自動車学校の公式サイトです。キャンペーン、ピックアップコンテンツ、スタッフ紹介、在校生向け情報、営業カレンダーまでを網羅し、「笑顔で通える教習所」を伝えています。WordPressにSwiperとContact Form 7を実装し、All in One SEOと構造化データでSEOを完全に実装しています。",
+      "en": "The official site for Showa Driving School in Kasugai, Aichi, chosen by students for 60 years. It covers campaigns, featured content, staff profiles, information for current students and an operating calendar, conveying \"a school you'll attend with a smile\". WordPress with Swiper and Contact Form 7, and fully implemented SEO with All in One SEO and structured data."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "makichuo",
+    "name": "巻中央自動車学校",
+    "url": "https://www.makichuo.co.jp/",
+    "category": "driving",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "新潟市西蒲区の巻中央自動車学校の公式サイトです。県内向けの通学コースと、県外向けの女性専用自炊プランを含む合宿コースを分けて案内し、無料送迎バスや各種講習会の情報も掲載しています。jQueryとSlickでスライダーを実装し、パンくずの構造化データ・OGP・サイトマップを整備しました。",
+      "en": "The official site for Maki Chuo Driving School in Nishikan-ku, Niigata. It separates the commuting course for local students from intensive residential courses for out-of-prefecture students — including a women-only self-catering plan — and lists free shuttle buses and training sessions. jQuery and Slick sliders, with breadcrumb structured data, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "inage-sbs",
+    "name": "SBSドライビングスクール稲毛",
+    "url": "https://inage.sbs-drivingschool.co.jp/",
+    "category": "driving",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "千葉市稲毛区の千葉県公安委員会指定教習所、SBSドライビングスクール稲毛（旧京葉自動車教習所）の公式サイトです。入校から卒業までの成長をストーリー仕立てのビジュアルで描き、ポイント、教習料金、送迎バス、卒業生の声を紹介しています。WordPressにSlickを実装し、All in One SEO・構造化データ・canonicalでSEOを完全に実装しています。",
+      "en": "The official site for SBS Driving School Inage (formerly Keiyo Driving School), a designated school in Inage-ku, Chiba. Story-style visuals depict a student's growth from enrollment to graduation, alongside highlights, fees, shuttle buses and graduate testimonials. WordPress with Slick, and fully implemented SEO with All in One SEO, structured data and canonical tags."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "chugoku-ds",
+    "name": "中国自動車学校",
+    "url": "https://www.chugoku-ds.co.jp/",
+    "category": "driving",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "広島市南区宇品東にある、広島県公安委員会指定の公認中国自動車学校の公式サイトです。日曜・祝日の教習や市内中心部からの無料送迎バスなど選ばれる理由と、教習プラン・料金を分かりやすく整理しています。WordPressとjQueryで構築し、メタディスクリプション・OGP・サイトマップで地域検索に対応しています。",
+      "en": "The official site for Chugoku Driving School, a designated school in Ujina-higashi, Minami-ku, Hiroshima. It clearly lays out why students choose it — Sunday and holiday lessons, a free shuttle from the city center — along with plans and pricing. Built with WordPress and jQuery, with meta descriptions, OGP and a sitemap for local search."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "fine-motorschool",
+    "name": "ファインモータースクール",
+    "url": "https://www.fine-motorschool.co.jp/",
+    "category": "driving",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "さいたま市大宮・上尾・西大宮エリアの自動車教習所、ファインモータースクールの公式サイトです。「おもいやり」を軸に、無料送迎バス、教習プラン選び、卒業生の声、FAQ、コラムまで、不安なく免許取得を目指せる情報を揃えています。WordPressにSwiperを実装し、LocalBusinessを含む構造化データ・canonical・OGPで地域SEOを強化しています。",
+      "en": "The official site for Fine Motor School, serving Omiya, Ageo and Nishi-Omiya in Saitama. Centered on \"consideration\", it offers everything needed to get a license without worry — free shuttles, plan selection, graduate testimonials, FAQs and columns. WordPress with Swiper, and local SEO strengthened by structured data including LocalBusiness, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "haijima-ds",
+    "name": "拝島自動車教習所",
+    "url": "https://www.haijima-ds.co.jp/",
+    "category": "driving",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "東京都福生市、拝島駅北口から徒歩5分の拝島自動車教習所の公式サイトです。普通自動車・二輪・中型・大型特殊など多様な免許に対応し、「不安がいつの間にか楽しみに変わる」教習所ライフを紹介しています。WordPressにSlickのスライダーを実装し、メタディスクリプション・OGP・サイトマップを整備しました。",
+      "en": "The official site for Haijima Driving School in Fussa, Tokyo, a five-minute walk from Haijima Station's north exit. It handles a wide range of licenses — standard, motorcycle, mid-size and special heavy vehicles — and presents a school life where \"anxiety turns into fun\". WordPress with Slick sliders, plus meta descriptions, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "contihome",
+    "name": "コンチネンタルホーム",
+    "url": "https://www.contihome.com/",
+    "category": "realestate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "Vue.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Bootstrap",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "栃木・茨城・群馬・長野で自由設計の注文住宅を手がける、コンチネンタルホームの公式サイトです。見学会・イベント、展示場、6つのデザイン、施工事例、住宅ラインナップ、土地情報、カタログ請求までを網羅しています。WordPressにVue.js・Slick・Bootstrapを組み合わせ、Contact Form 7と構造化データ・canonical・OGPを実装しています。",
+      "en": "The official site for Continental Home, which builds custom-designed homes in Tochigi, Ibaraki, Gunma and Nagano. It covers open houses and events, model homes, six design styles, case studies, the home lineup, land listings and catalog requests. WordPress combined with Vue.js, Slick and Bootstrap, plus Contact Form 7, structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "grandereverie",
+    "name": "グランレブリー",
+    "url": "https://grandereverie.jp/",
+    "category": "realestate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Bootstrap",
+      "Canvas",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "京都・滋賀・大阪でおしゃれなフルオーダー注文住宅を手がける、グランレブリーの公式サイトです。「夢を家にする」をテーマに、高デザイン・高性能を驚きの坪単価で叶える家づくりと施工事例を紹介しています。WordPressにCanvasを用いた3Dライクなカルーセル演出を実装し、canonical・OGP・Twitterカードを整備しました。",
+      "en": "The official site for Grande Reverie, a builder of stylish fully custom homes in Kyoto, Shiga and Osaka. Under the theme \"turning dreams into homes\", it presents high-design, high-performance homes at surprising prices per tsubo, along with built projects. WordPress with a Canvas-based, 3D-style carousel, plus canonical tags, OGP and Twitter Cards."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "hophouse",
+    "name": "HOP",
+    "url": "https://www.hophouse.co.jp/",
+    "category": "realestate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "自然素材にこだわった高級注文住宅を手がける、HOP（ハウジングオペレーションアーキテクツ）の公式サイトです。宮大工の魂を原点とする家づくりの思想を、設計施工事例、デザインギャラリー、メディア掲載とともに格調高く伝えています。WordPressにSwiperを実装し、canonical・OGP・サイトマップでSEOの基盤を整えています。",
+      "en": "The official site for HOP (Housing Operation Architects), a builder of high-end custom homes using natural materials. It conveys, with an elegant tone, a philosophy rooted in the spirit of traditional temple carpenters, through built projects, a design gallery and media coverage. WordPress with Swiper, and an SEO foundation of canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "freedom",
+    "name": "フリーダムアーキテクツ",
+    "url": "https://freedom.co.jp/",
+    "category": "realestate",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Contact Form 7",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "注文住宅・狭小住宅・デザイナーズ住宅を設計する建築設計事務所、フリーダムアーキテクツの公式サイトです。住宅作品を価格帯・カテゴリー・タグ・地域から探せる検索機能、無料イベント、フリーダムマガジン、全国のスタジオ案内を備えています。WordPressにSwiper・Slickを組み合わせ、Contact Form 7とOrganizationの構造化データを実装しています。",
+      "en": "The official site for FREEDOM Architects, an architectural firm designing custom, narrow-lot and designer homes. It features project search by price range, category, tag and region, free events, Freedom Magazine and a guide to studios nationwide. WordPress combined with Swiper and Slick, plus Contact Form 7 and Organization structured data."
+    },
+    "seo": [
+      "Meta Description",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "saiseikai",
+    "name": "済生会川口総合病院",
+    "url": "https://www.saiseikai.gr.jp/",
+    "category": "medical",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "GSAP",
+      "ScrollTrigger",
+      "Splide",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "埼玉県川口市で、川口・戸田・蕨の約80万人の地域医療を担う急性期型中核病院、埼玉県済生会川口総合病院の公式サイトです。ピックアップ情報、お知らせ、病院の特徴・取り組み、地域医療連携を、患者さんと医療機関の双方に分かりやすく整理しています。WordPressにGSAP（ScrollTrigger）とSplideを組み込み、OGP・Twitterカードを整備しています。",
+      "en": "The official site for Saitama Saiseikai Kawaguchi General Hospital, an acute-care core hospital serving about 800,000 people in Kawaguchi, Toda and Warabi. It clearly organizes featured information, news, the hospital's strengths and initiatives, and regional medical partnerships for both patients and medical institutions. WordPress with GSAP (ScrollTrigger) and Splide, plus OGP and Twitter Cards."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card"
+    ]
+  },
+  {
+    "slug": "rikka-kdc",
+    "name": "六花キッズデンタルクリニック",
+    "url": "https://rikka-kdc.com/",
+    "category": "medical",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "福岡県久留米市上津町にある小児歯科専門の歯医者、六花キッズデンタルクリニックの公式サイトです。むし歯や歯並びなど子どものお口の悩みに女性歯科医師が寄り添う姿勢を、当院の特徴・診療案内・ごあいさつでやわらかく伝えています。WordPressにSlickとWebフォントを組み合わせ、canonical・OGP・サイトマップを整備しました。",
+      "en": "The official site for Rikka Kids Dental Clinic, a pediatric-only dental practice in Kamitsu, Kurume, Fukuoka. It gently conveys how female dentists support children's oral concerns such as cavities and alignment, through the clinic's features, treatments and a greeting. WordPress with Slick and web fonts, plus canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "goya-dental",
+    "name": "合屋歯科・こども歯科",
+    "url": "https://goya-dental.com/",
+    "category": "medical",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "AOS",
+      "Bootstrap",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "福岡県糟屋郡須恵町の合屋歯科・こども歯科の公式サイトです。口腔外科・インプラント学会認定医や女性医師の在籍、セレックなどの審美歯科、土曜診療といった特徴を、診療案内・アクセス・ブログとともに紹介しています。WordPressにSlick・AOS・Bootstrapでスクロール演出を加え、All in One SEOとHospitalの構造化データでSEOを完全に実装しています。",
+      "en": "The official site for Goya Dental & Kids Dental in Sue, Kasuya, Fukuoka. It highlights board-certified oral surgery and implant specialists, female dentists, aesthetic treatments such as CEREC and Saturday hours, alongside treatment info, access and a blog. WordPress with Slick, AOS and Bootstrap scroll effects, and fully implemented SEO with All in One SEO and Hospital structured data."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "yamasaki-iin",
+    "name": "山崎医院",
+    "url": "https://www.yamasaki-iin.com/",
+    "category": "medical",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "長崎県島原市で約80年にわたり地域に根づく、産科・婦人科・麻酔科の山崎医院の公式サイトです。出産から育児、その後の暮らしまで末永く寄り添う医院の姿勢を、安心感のあるデザインで伝えています。WordPressのオリジナルテーマで構築し、メタディスクリプション・OGP・サイトマップを整備しています。",
+      "en": "The official site for Yamasaki Clinic, an obstetrics, gynecology and anesthesiology clinic rooted in Shimabara, Nagasaki, for about 80 years. It conveys, with a reassuring design, the clinic's long-term support from childbirth through child-rearing and beyond. Built on a custom WordPress theme with meta descriptions, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "chibanishi-beauty",
+    "name": "千葉西総合病院 アンチエイジング外来",
+    "url": "https://beauty.chibanishi-hp.or.jp/",
+    "category": "medical",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "GSAP",
+      "ScrollTrigger",
+      "Swiper",
+      "Contact Form 7",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "千葉県松戸市の千葉西総合病院が運営する、アンチエイジング外来（美容医療）の公式サイトです。医療脱毛やレーザー治療、シミ・ほくろ治療などの施術メニューと治療の流れ、お知らせを、病院ならではの安心感とともに紹介しています。WordPressにGSAP（ScrollTrigger）・Swiperで上質な演出を加え、Contact Form 7とOGP・サイトマップを実装しました。",
+      "en": "The official site for the Anti-Aging Clinic (aesthetic medicine) run by Chibanishi General Hospital in Matsudo, Chiba. It presents treatments such as medical hair removal, laser therapy and spot and mole removal, the treatment flow and news, with the reassurance of a hospital. WordPress with GSAP (ScrollTrigger) and Swiper for refined motion, plus Contact Form 7, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "oyumino-roken",
+    "name": "介護老人保健施設おゆみの",
+    "url": "https://www.oyumino-roken.jp",
+    "category": "medical",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "千葉市緑区の自然豊かな環境にある、介護老人保健施設おゆみのの公式サイトです。長期入所・ショートステイ・通所リハビリなどのサービスと、診療所をはじめとする関連施設を、利用者とご家族に分かりやすく案内しています。jQueryとSwiperで施設写真のスライダーを実装し、Webフォントで読みやすさに配慮しています。",
+      "en": "The official site for Oyumino, a geriatric health services facility set in the natural surroundings of Midori-ku, Chiba. It clearly guides residents and families through long-term stays, short stays and day rehabilitation, plus related facilities such as the clinic. jQuery and Swiper photo sliders, with web fonts chosen for readability."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "cohina",
+    "name": "COHINA",
+    "url": "https://cohina.net/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "身長150cm前後の小柄女性向けファッションブランド「COHINA」「STRATA」の公式オンラインストアです。すべてXS・Sサイズで展開し、新作・ランキング・季節の特集・再入荷情報をInstagramやLINEと連動させて発信しています。Shopify（Dawnベース）をカスタマイズし、構造化データ・canonical・OGPでEC向けSEOを実装しています。",
+      "en": "The official online store for COHINA and STRATA, fashion brands for petite women around 150 cm tall. Everything comes in XS and S sizes, with new arrivals, rankings, seasonal features and restocks promoted alongside Instagram and LINE. A customized Shopify build based on Dawn, with e-commerce SEO via structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "benza",
+    "name": "ベンザブロック",
+    "url": "https://benza.jp/",
+    "category": "ec",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "アリナミン製薬の市販かぜ薬「ベンザブロック」のブランド公式サイトです。鼻・のど・熱など症状別の製品紹介、ベンザを選ぶ理由、風邪コラム、TVCM・Web動画を通じて、自分に合ったかぜ薬選びをサポートしています。jQueryとSwiperで製品カルーセルを実装し、Brand・ItemListを含む構造化データとOGPで検索・SNSに最適化しています。",
+      "en": "The official brand site for Benza Block, Alinamin Pharmaceutical's over-the-counter cold medicine. Through symptom-based product guides for nose, throat and fever, reasons to choose Benza, cold-care columns and TV and web videos, it helps people choose the right remedy. jQuery and Swiper product carousels, with structured data including Brand and ItemList, plus OGP for search and social."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD"
+    ]
+  },
+  {
+    "slug": "darich",
+    "name": "Darich",
+    "url": "https://www.darich.shop/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Splide",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "カジュアル・セクシー・フェミニンを融合したレディースアパレルブランド「Darich（ダーリッチ）」の公式オンラインストアです。新作・再入荷・カテゴリー・スタッフスタイリングで、トレンドから定番まで提案しています。Shopify（Liquid）にSwiper・Splideを組み込み、hreflangによる多言語対応と構造化データ・canonicalを実装しています。",
+      "en": "The official online store for Darich, a women's fashion brand blending casual, sexy and feminine styles. New arrivals, restocks, categories and staff styling showcase everything from trends to staples. Shopify (Liquid) with Swiper and Splide, multilingual support via hreflang, and structured data and canonical tags."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "hreflang"
+    ]
+  },
+  {
+    "slug": "deglu",
+    "name": "De-glu",
+    "url": "https://deglu.jp/",
+    "category": "ec",
+    "tech": [
+      "Next.js",
+      "React",
+      "Shopify (Headless)",
+      "Vercel",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Lenis",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "韓国発のグルテン分解乳酸菌サプリメント「De-glu（デグル）」の公式サイト兼オンラインストアです。「ゼロじゃなくていい。グルテンレスという選択肢。」をメッセージに、小麦食品を楽しみながらグルテンレスを実現する価値を伝えています。Next.js（React）とShopifyを組み合わせたヘッドレスECとしてVercel上に構築し、Lenisの滑らかなスクロールとcanonical・OGPを実装しています。",
+      "en": "The official site and online store for De-glu, a Korean gluten-digesting lactic-acid-bacteria supplement. With the message \"It doesn't have to be zero — gluten-less is an option\", it conveys how to enjoy wheat foods while going gluten-less. Built as a headless store combining Next.js (React) and Shopify on Vercel, with Lenis smooth scrolling, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "wacoal",
+    "name": "Wacoal",
+    "url": "https://www.wacoal.jp/",
+    "category": "ec",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "女性下着ブランド、ワコールの公式ブランドサイトです。ブランド一覧、新着情報、ワコールについて、ニュースリリース、メンバー募集などをまとめ、オンラインストアや店舗への入口として機能しています。Swiperによるブランドカルーセルを実装し、大規模サイトとしてメタ情報・OGP・サイトマップを整備しています。",
+      "en": "The official brand site for Wacoal, the women's lingerie brand. It brings together the brand lineup, new arrivals, company information, news releases and membership sign-ups, serving as the gateway to the online store and retail locations. Swiper powers the brand carousels, with meta data, OGP and a sitemap in place for a large-scale site."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "bridesmaids",
+    "name": "エクラ（ブライズメイドドレス）",
+    "url": "https://shop.bridesmaids.jp/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "ブライズメイドドレス専門店「エクラ」の公式オンラインストアです。インフィニティドレスやサテンドレスを色・サイズから選べる仕組みに加え、即日発送商品、白金台サロンでの予約試着・郵送試着、お客様の声を紹介しています。Shopify（Liquid）で構築し、FAQPageを含む構造化データ・hreflang・canonicalでEC向けSEOを強化しています。",
+      "en": "The official online store for Eclat, a bridesmaid-dress specialist. Beyond choosing infinity and satin dresses by color and size, it offers same-day shipping items, appointment fittings at its Shirokanedai salon or by mail, and customer reviews. Built on Shopify (Liquid), with e-commerce SEO strengthened by structured data including FAQPage, hreflang and canonical tags."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "hreflang"
+    ]
+  },
+  {
+    "slug": "misshelly",
+    "name": "Miss Helly",
+    "url": "https://misshelly.com/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "三上悠亜がプロデュースするヘアケアブランド「Misshelly（ミスシェリー）」の公式オンラインストアです。「花のように、優雅に高貴に」をテーマに、製品紹介・ブランドメッセージ・使用成分を淡いグラデーションの世界観で表現しています。Shopify（Liquid）にSwiperとWebフォントを組み合わせ、構造化データ・canonical・OGPを実装しています。",
+      "en": "The official online store for Misshelly, a hair-care brand produced by Yua Mikami. Under the theme \"graceful and noble, like a flower\", it presents products, the brand message and ingredients in a soft, gradient-toned world. Shopify (Liquid) with Swiper and web fonts, plus structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "herlipto",
+    "name": "Her lip to",
+    "url": "https://herlipto.jp",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "小嶋陽菜がクリエイティブディレクターを務めるアパレルブランド「Her lip to」の公式オンラインストアです。日常に溶け込むエレガンスと華やかさを、ランキングや新作・コレクションで提案しています。Shopify（Liquid）にSwiper・Slickを組み込み、hreflangによる多言語対応と構造化データ・canonicalを実装しています。",
+      "en": "The official online store for Her lip to, an apparel brand with Haruna Kojima as creative director. It proposes elegance and glamour that blend into everyday life through rankings, new arrivals and collections. Shopify (Liquid) with Swiper and Slick, multilingual support via hreflang, and structured data and canonical tags."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "hreflang"
+    ]
+  },
+  {
+    "slug": "babshowroom",
+    "name": "Bab",
+    "url": "https://babshowroom.com/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "SNSで話題のファッションブランド「Bab（バブ）」の公式通販サイトです。ランキング、新作、セール、スタッフスタイリング、Instagramスナップで、フェミニン×ソフトカジュアルなアイテムを提案しています。Shopify（Liquid）にSwiperを実装し、hreflangによる多言語対応と構造化データ・canonical・OGPを整備しています。",
+      "en": "The official online store for Bab, a fashion brand popular on social media. Rankings, new items, sales, staff styling and Instagram snaps showcase its feminine, soft-casual pieces. Shopify (Liquid) with Swiper, multilingual support via hreflang, and structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "hreflang"
+    ]
+  },
+  {
+    "slug": "uzu",
+    "name": "UZU BY FLOWFUSHI",
+    "url": "https://www.uzu.team/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Web Fonts"
+    ],
+    "desc": {
+      "ja": "「ビューティーにフェアな選択を」を掲げるコスメブランド、UZU BY FLOWFUSHIの公式ブランドサイトです。EYE OPENING LINERやMOTEMASCARAなどのプロダクトと、「なりたい より、ありたい 美しさを。」というブランド思想をカラフルに表現しています。Shopify（Liquid）にSlickとWebフォントを組み合わせ、構造化データ・canonical・OGPを実装しています。",
+      "en": "The official brand site for UZU BY FLOWFUSHI, a cosmetics brand committed to \"fair choices in beauty\". It colorfully presents products such as EYE OPENING LINER and MOTEMASCARA, along with its philosophy of beauty \"as you want to be, not who you're told to be\". Shopify (Liquid) with Slick and web fonts, plus structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "anker",
+    "name": "Anker Japan",
+    "url": "https://www.ankerjapan.com/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Splide",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "モバイルバッテリー・充電器・オーディオなどを展開するAnker Japanの公式オンラインストアです。iPhone・Android・Mac向けのおすすめ製品や急速充電の情報を豊富に揃え、大規模な商品数を探しやすく構成しています。Shopify（Liquid）にSplideを組み込んだ大規模ECで、構造化データ・canonical・OGP・サイトマップを網羅しています。",
+      "en": "The official online store for Anker Japan, offering power banks, chargers, audio gear and more. It's packed with product recommendations for iPhone, Android and Mac users and fast-charging info, structured so a large catalog stays easy to browse. A large-scale Shopify (Liquid) store with Splide, and full coverage of structured data, canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "ciara",
+    "name": "Ciara",
+    "url": "https://ciara-store.com/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "「着飾るスマホケース」を掲げる、スマホケース・アクセサリー専門店「Ciara（シアラ）」の公式通販サイトです。機種・デザイン・機能からケースを探せる導線と、人気ランキング、特集、スマホチャームなどのアクセサリーを揃えています。Shopify（Liquid）で構築し、FAQPage・LocalBusinessを含む構造化データとcanonical・OGPでEC向けSEOを強化しています。",
+      "en": "The official online store for Ciara, a phone-case and accessory specialist built around \"phone cases you dress up in\". It offers search by device, design and function, popular rankings, features and accessories such as phone charms. Built on Shopify (Liquid), with e-commerce SEO strengthened by structured data including FAQPage and LocalBusiness, plus canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "chiikawamarket",
+    "name": "ちいかわマーケット",
+    "url": "https://chiikawamarket.jp/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Splide",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "イラストレーター・ナガノが描く人気キャラクター「ちいかわ」の公式グッズショップ「ちいかわマーケット」です。ぬいぐるみ・雑貨・文房具・アパレル・限定グッズなどの新着・おすすめ商品を、大量アクセスにも耐える構成で展開しています。Shopify（Dawnベース）にSplideを組み込み、hreflangによる多地域対応と構造化データ・canonicalを実装しています。",
+      "en": "Chiikawa Market, the official merchandise shop for Chiikawa, the hit character by illustrator Nagano. It features new and recommended plush toys, goods, stationery, apparel and exclusives, structured to withstand heavy traffic. A Dawn-based Shopify store with Splide, multi-region support via hreflang, and structured data and canonical tags."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "hreflang"
+    ]
+  },
+  {
+    "slug": "bonaventura",
+    "name": "BONAVENTURA",
+    "url": "https://jp.bonaventura.shop/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "ミラノ発の高級本革製品ブランド「BONAVENTURA（ボナベンチュラ）」の日本公式オンラインストアです。150年以上の歴史を持つ名門タンナーのレザーを使ったiPhoneケース・バッグ・財布を、コレクションや新作、サービス紹介とともに展開しています。Shopify（Horizonテーマ）で構築し、hreflangによる多言語対応と構造化データ・canonical・OGPを実装しています。",
+      "en": "The official Japanese online store for BONAVENTURA, a Milan-born luxury leather brand. It offers iPhone cases, bags and wallets made from leather by a tannery with more than 150 years of history, alongside collections, new arrivals and services. Built on Shopify (Horizon theme), with multilingual support via hreflang and structured data, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "hreflang"
+    ]
+  },
+  {
+    "slug": "drescco",
+    "name": "DRESCCO",
+    "url": "https://drescco.com/",
+    "category": "ec",
+    "tech": [
+      "Shopify",
+      "Liquid",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Swiper",
+      "Alpine.js"
+    ],
+    "wait": 15000,
+    "desc": {
+      "ja": "プロのデザイナーが手がける子供フォーマルドレス・キッズスーツ専門ブランド「DRESCCO（ドレスコ）」の公式オンラインストアです。結婚式のフラワーガールやピアノ発表会向けに、キッズ・ベビー・ジュニア・ボーイズスーツのコレクションを展開しています。Shopify（Liquid）にAlpine.jsとSwiperを組み込み、hreflang・構造化データ・canonicalでEC向けSEOを実装しています。",
+      "en": "The official online store for DRESCCO, a children's formalwear brand of designer dresses and kids' suits. It offers kids', baby, junior and boys' suit collections for occasions such as weddings — flower girls included — and piano recitals. Shopify (Liquid) with Alpine.js and Swiper, and e-commerce SEO via hreflang, structured data and canonical tags."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "hreflang"
+    ]
+  },
+  {
+    "slug": "canmake",
+    "name": "CANMAKE",
+    "url": "https://www.canmake.com/",
+    "category": "ec",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "プチプラコスメブランド「CANMAKE（キャンメイク）」の公式サイトです。アイテム一覧、ニュース＆トピックス、特集コンテンツを通じて、新作コスメやトレンド情報を発信しています。WordPressのオリジナルテーマにSwiperのカルーセルを実装し、OGP・サイトマップでSNS拡散と検索に対応しています。",
+      "en": "The official site for CANMAKE, an affordable cosmetics brand. Through its item list, news and topics, and feature content, it spreads the word about new products and trends. A custom WordPress theme with Swiper carousels, plus OGP and a sitemap for social sharing and search."
+    },
+    "seo": [
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "chifure",
+    "name": "ちふれ",
+    "url": "https://www.chifure.co.jp/",
+    "category": "ec",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "高品質で適正価格の化粧品を届ける、ちふれ化粧品の公式サイトです。おすすめトピックス・新商品・スキンケア・メイクのカテゴリー検索に加え、全商品の成分分量や全国の販売店情報を公開しています。WordPressにSwiper・Slickのカルーセルを実装し、All in One SEOと構造化データでSEOを完全に実装しています。",
+      "en": "The official site for CHIFURE, a cosmetics maker delivering high-quality products at fair prices. Beyond featured topics, new products and category search for skincare and makeup, it publishes ingredient amounts for every product and a nationwide store finder. WordPress with Swiper and Slick carousels, and fully implemented SEO with All in One SEO and structured data."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "osk-gym24",
+    "name": "OSK GYM 24",
+    "url": "https://www.osk21.co.jp/lp/oskgym24/",
+    "category": "health",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Slick",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "岡山のOSKスポーツクラブが運営する24時間ジム「OSK GYM 24」の入会キャンペーンLPです。施設の特徴、ジムの様子、プログラム、会員システム、見学・利用の流れを紹介し、Web入会特典で申し込みを後押ししています。jQueryとSlickで施設写真のスライダーを実装し、メタディスクリプションとサイトマップを整備しました。",
+      "en": "A membership campaign landing page for OSK GYM 24, the 24-hour gym run by OSK Sports Club in Okayama. It introduces the facility's features, the gym floor, programs, the membership system and how to tour and join, with online sign-up perks to encourage applications. jQuery and Slick photo sliders, plus a meta description and sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "t-balance",
+    "name": "T-BALANCE",
+    "url": "https://t-balance-gym.com/",
+    "category": "health",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Bootstrap",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "パーソナルトレーニングジム「ティーバランス」の公式サイトです。ジムの特徴と強み、体験トレーニングの流れ、お客様の声、Q&A、コラムで、初めての方でも安心して申し込めるよう構成しています。WordPressにSwiper・Slick・Bootstrapを組み合わせ、All in One SEOと構造化データでSEOを完全に実装しています。",
+      "en": "The official site for T-BALANCE, a personal training gym. Its features and strengths, the trial-session flow, customer reviews, Q&A and columns are structured so first-timers can sign up with confidence. WordPress with Swiper, Slick and Bootstrap, and fully implemented SEO with All in One SEO and structured data."
+    },
+    "seo": [
+      "All in One SEO",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "1on1-yoga",
+    "name": "1on1 Yoga Tokyo",
+    "url": "https://1on1-yoga.com/tokyo/",
+    "category": "health",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "東京・銀座1丁目、駅徒歩2分の完全個室パーソナルヨガスタジオ「1on1YOGA」の紹介サイトです。インストラクター紹介、体験レッスンの流れ、よくある質問、体験者の声、ヨガの効果を、SNSや雑誌での話題性とともに伝えています。jQueryとSwiperでスライダーを実装し、メタディスクリプションとサイトマップで集客導線を整えています。",
+      "en": "The site for 1on1YOGA, a fully private personal yoga studio in Ginza 1-chome, two minutes from the station. It covers instructor profiles, the trial-lesson flow, FAQs, client testimonials and the benefits of yoga, along with its buzz on social media and in magazines. jQuery and Swiper sliders, with a meta description and sitemap to support acquisition."
+    },
+    "seo": [
+      "Meta Description",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "enfant-megane",
+    "name": "こどもメガネ アンファン",
+    "url": "https://enfant-megane.com/",
+    "category": "other",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Swiper",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "創業35年以上、全国35店舗を展開する子どものメガネ専門店「アンファン」の公式サイトです。オリジナルフレームや弱視治療用・スポーツメガネ、選ばれる4つの理由、店舗検索、お客様の声、目とメガネの知識コラムを揃えています。WordPressのオリジナルテーマにSwiperを実装し、LocalBusinessを含む構造化データ・canonical・OGPでSEOを網羅しています。",
+      "en": "The official site for Enfant, a children's eyewear specialist with over 35 years of history and 35 stores nationwide. It offers original frames, amblyopia-treatment and sports glasses, four reasons to choose them, a store finder, reviews and columns on children's eyes and eyewear. A custom WordPress theme with Swiper, and comprehensive SEO via structured data including LocalBusiness, canonical tags and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "aigan-setmegane",
+    "name": "愛眼 お手軽メガネセット",
+    "url": "https://www.aigan.co.jp/feature/set_megane/",
+    "category": "other",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Fancybox",
+      "Contact Form 7",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "メガネの愛眼による、レンズ付きで5,900円（税込）からのおしゃれなメガネセットの特集ページです。気分やファッションに合わせて新しい自分に挑戦できる、手軽なメガネ選びを提案しています。WordPress上にSwiper・Fancyboxを実装し、パンくず・構造化データ・OGPでSEOを整えています。",
+      "en": "Aigan's feature page for stylish eyewear sets, lenses included, starting at ¥5,900 (tax included). It proposes easy eyewear shopping that lets you try a new look to match your mood and outfit. Built on WordPress with Swiper and Fancybox, and SEO via breadcrumbs, structured data and OGP."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap",
+      "Breadcrumbs"
+    ]
+  },
+  {
+    "slug": "smile-days",
+    "name": "Smile day'S",
+    "url": "https://smile-days.jp/",
+    "category": "corporate",
+    "tech": [
+      "STUDIO",
+      "Nuxt",
+      "Vue.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 16000,
+    "desc": {
+      "ja": "音楽制作、ライブ・イベントのプロデュースを手がける株式会社スマイルデイズのコーポレートサイトです。事業内容、実績、所属クリエイター・アーティスト、ニュース、会社概要を通じて、才能を引き出しサウンドを届ける会社の姿を伝えています。ノーコードツールSTUDIO（Nuxt / Vue.jsベース）で構築し、canonical・OGP・サイトマップを整備しています。",
+      "en": "The corporate site for Smile Days, a company producing music, live shows and events. Through its business, track record, roster of creators and artists, news and company profile, it shows how the company draws out talent and delivers sound. Built with the no-code tool STUDIO (based on Nuxt / Vue.js), with canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "amoretto",
+    "name": "LIFE studio（旧amoretto）",
+    "url": "https://photostudioamoretto.com/",
+    "category": "other",
+    "tech": [
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "Swiper",
+      "Web Fonts",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "wait": 16000,
+    "desc": {
+      "ja": "愛知・静岡の写真館、LIFE studio豊川店（旧フォトスタジオ アマレット）・浜松店の公式サイトです。完全貸切のスタジオで撮影するベビーフォト・七五三・家族写真などを、フォトギャラリーとブランドストーリー、プラン・予約案内で紹介しています。SwiperとWebフォントで写真が映えるレイアウトを実装し、OGP・Twitterカードを整備しています。",
+      "en": "The official site for LIFE studio Toyokawa (formerly Photo Studio amoretto) and Hamamatsu, photo studios in Aichi and Shizuoka. It presents baby photos, Shichi-Go-San, family portraits and more, shot in fully private studios, through a photo gallery, the brand story and plans and booking. Swiper and web fonts create a layout that lets the photos shine, with OGP and Twitter Cards."
+    },
+    "seo": [
+      "Meta Description",
+      "OGP",
+      "Twitter Card"
+    ]
+  },
+  {
+    "slug": "improve-photo",
+    "name": "improve",
+    "url": "https://www.improve-photo-movie.com/",
+    "category": "other",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "横浜で前撮り・フォトウエディングを手がける「インプルーブ（improve）」の公式サイトです。ウェディングフォト・ムービー、私服ロケーション、企業プロモーション撮影までのサービスを、実績ギャラリーやフォトグラファー紹介とともに見せています。WordPressのオリジナルテーマで構築し、構造化データ・canonical・OGP・サイトマップでSEOを網羅しています。",
+      "en": "The official site for improve, a pre-wedding and photo-wedding studio in Yokohama. It showcases wedding photos and films, casual location shoots and corporate promotional work, alongside a gallery and photographer profiles. Built on a custom WordPress theme with comprehensive SEO via structured data, canonical tags, OGP and a sitemap."
+    },
+    "seo": [
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "missgalaxy",
+    "name": "Miss Galaxy of Beauty",
+    "url": "https://missgalaxyofbeauty.com/",
+    "category": "other",
+    "tech": [
+      "WordPress",
+      "PHP",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Fancybox",
+      "Contact Form 7"
+    ],
+    "desc": {
+      "ja": "持続可能な社会を目指す世界中の女性から、銀河のように美しく輝く女性を選ぶビューティーコンテスト「Miss Galaxy of Beauty」の公式サイトです。コンテストに込められた意味や理念、エントリー情報を、華やかなビジュアルで発信しています。WordPress（Lightning）にSwiper・Fancybox・Contact Form 7を実装し、All in One SEOと構造化データでSEOを完全に実装しています。",
+      "en": "The official site for Miss Galaxy of Beauty, a contest that selects women who shine like the galaxy from around the world, working toward a sustainable society. It shares the meaning and philosophy behind the contest and entry information through glamorous visuals. WordPress (Lightning) with Swiper, Fancybox and Contact Form 7, and fully implemented SEO with All in One SEO and structured data."
+    },
+    "seo": [
+      "All in One SEO",
+      "Meta Description",
+      "Canonical",
+      "OGP",
+      "Twitter Card",
+      "JSON-LD",
+      "XML Sitemap"
+    ]
+  },
+  {
+    "slug": "fancl",
+    "name": "FANCL",
+    "url": "https://www.fancl.co.jp/",
+    "category": "ec",
+    "tech": [
+      "Vue.js",
+      "HTML5",
+      "CSS3",
+      "JavaScript",
+      "jQuery",
+      "Swiper",
+      "Slick",
+      "Bootstrap",
+      "Google Analytics 4",
+      "Google Tag Manager"
+    ],
+    "desc": {
+      "ja": "無添加化粧品・健康食品・サプリメントを販売するファンケルの公式オンラインショップ「ファンケルオンライン」です。キャンペーン、トライアルキット、人気商品、男性向けアイテム、お悩み別検索、コラム、ランキングで、商品選びから購入までをサポートしています。Vue.jsとjQuery・Swiper・Slick・Bootstrapを組み合わせた大規模ECで、canonicalとサイトマップを整備しています。",
+      "en": "FANCL Online, the official online shop for FANCL's additive-free cosmetics, health foods and supplements. Campaigns, trial kits, best sellers, men's items, search by concern, columns and rankings support customers from choosing to buying. A large-scale store combining Vue.js with jQuery, Swiper, Slick and Bootstrap, with canonical tags and a sitemap."
+    },
+    "seo": [
+      "Canonical",
+      "XML Sitemap"
+    ]
+  }
+]
