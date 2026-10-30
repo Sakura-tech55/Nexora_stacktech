@@ -167,42 +167,61 @@ function WorkModal({ work, onClose }: { work: Work; onClose: () => void }) {
     };
   }, [onClose]);
 
+  const isSp = work.viewport === "sp";
+
   return (
     <div className="WorkModal" role="dialog" aria-modal="true" aria-label={work.name} onClick={onClose}>
-      <div className="WorkModal__card" data-lenis-prevent onClick={(e) => e.stopPropagation()}>
+      <div className="WorkModal__card" onClick={(e) => e.stopPropagation()}>
+        {/* outside the scroller so it stays put while the details scroll */}
         <button type="button" className="WorkModal__close" onClick={onClose} aria-label={dict.works.close}>
           <span /><span />
         </button>
-        <div className="WorkModal__thumb">
-          <img src={shot(work)} alt={`${work.name} — first view`} decoding="async" />
-        </div>
-        <div className="WorkModal__body">
-          <p className="WorkModal__cat">{dict.works.categories[work.category]}</p>
-          <h3 className="WorkModal__ttl">{work.name}</h3>
-          {work.desc && <p className="WorkModal__desc">{work.desc[lang]}</p>}
-          <div className="WorkModal__tech">
-            <p className="WorkModal__techLabel">{dict.works.techLabel}</p>
-            <div className="WorkModal__techList">
-              {work.tech.map((t) => (
-                <span className="WorkModal__techItem" key={t}>{t}</span>
-              ))}
+        <div className="WorkModal__scroll" data-lenis-prevent>
+          {/* the screenshot, uncropped, in a browser-window frame */}
+          <div className="WorkModal__browser">
+            <div className="WorkModal__bar" aria-hidden="true">
+              <span className="WorkModal__dots"><i /><i /><i /></span>
+              <span className="WorkModal__url">{new URL(work.url).hostname}</span>
+            </div>
+            <div className={`WorkModal__thumb${isSp ? " is-sp" : ""}`}>
+              {/* a portrait (mobile) capture sits centred on a blurred copy of itself */}
+              {isSp && <img className="WorkModal__thumbBg" src={shot(work)} alt="" />}
+              <img className="WorkModal__shot" src={shot(work)} alt={`${work.name} — first view`} decoding="async" />
             </div>
           </div>
-          {work.seo && work.seo.length > 0 && (
-            <div className="WorkModal__tech">
-              <p className="WorkModal__techLabel">{dict.works.seoLabel}</p>
-              <div className="WorkModal__techList">
-                {work.seo.map((t) => (
-                  <span className="WorkModal__techItem is-seo" key={t}>{t}</span>
-                ))}
+
+          <div className="WorkModal__body">
+            <div className="WorkModal__intro">
+              <p className="WorkModal__cat">{dict.works.categories[work.category]}</p>
+              <h3 className="WorkModal__ttl">{work.name}</h3>
+              {work.desc && <p className="WorkModal__desc">{work.desc[lang]}</p>}
+            </div>
+            <div className="WorkModal__side">
+              <div className="WorkModal__tech">
+                <p className="WorkModal__techLabel">{dict.works.techLabel}</p>
+                <div className="WorkModal__techList">
+                  {work.tech.map((t) => (
+                    <span className="WorkModal__techItem" key={t}>{t}</span>
+                  ))}
+                </div>
+              </div>
+              {work.seo && work.seo.length > 0 && (
+                <div className="WorkModal__tech">
+                  <p className="WorkModal__techLabel">{dict.works.seoLabel}</p>
+                  <div className="WorkModal__techList">
+                    {work.seo.map((t) => (
+                      <span className="WorkModal__techItem is-seo" key={t}>{t}</span>
+                    ))}
+                  </div>
+                </div>
+              )}
+              <div className="WorkModal__foot">
+                <a className="WorkModal__visit" href={work.url} target="_blank" rel="noopener noreferrer">
+                  <span>{dict.works.visit}</span>
+                  <span className="Icon type-newtab" aria-hidden="true"><span /></span>
+                </a>
               </div>
             </div>
-          )}
-          <div className="WorkModal__foot">
-            <a className="WorkModal__visit" href={work.url} target="_blank" rel="noopener noreferrer">
-              <span>{dict.works.visit}</span>
-              <span className="Icon type-newtab" aria-hidden="true"><span /></span>
-            </a>
           </div>
         </div>
       </div>

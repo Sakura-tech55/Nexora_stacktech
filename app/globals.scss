@@ -1251,19 +1251,23 @@ body.splash-is-on {
     padding: vws(16);
   }
 
+  /* Width follows the viewport height so the whole 16:10 screenshot plus the start
+     of the details fit on screen: 190px of details peek below the image. */
   &__card {
     position: relative;
-    display: grid;
-    grid-template-columns: minmax(0, 1.25fr) minmax(0, 1fr);
-    width: min(vw(1240), 100%);
+    display: flex;
+    flex-direction: column;
+    width: min(100%, vw(1180), max(vw(760), calc((100vh - vw(96) - vw(44) - 190px) * 1.6)));
+    width: min(100%, vw(1180), max(vw(760), calc((100svh - vw(96) - vw(44) - 190px) * 1.6)));
     max-height: calc(100vh - vw(96));
-    overflow: auto;
+    max-height: calc(100svh - vw(96));
+    overflow: hidden;
     background: #161616;
     border: 1px solid rgba(245, 245, 245, 0.14);
     border-radius: vw(12);
+    box-shadow: 0 vw(40) vw(100) rgba(0, 0, 0, 0.55);
     animation: workModalCardIn 0.55s var(--e-house) both;
     @include sp {
-      grid-template-columns: minmax(0, 1fr);
       width: 100%;
       max-height: calc(100vh - vws(32));
       max-height: calc(100svh - vws(32));
@@ -1271,22 +1275,30 @@ body.splash-is-on {
     }
   }
 
+  &__scroll {
+    flex: 1;
+    min-height: 0;
+    overflow-y: auto;
+    overscroll-behavior: contain;
+  }
+
+  /* sits in the browser bar, right side */
   &__close {
     position: absolute;
-    top: vw(16);
-    right: vw(16);
+    top: vw(7);
+    right: vw(10);
     z-index: 2;
-    width: vw(40);
-    height: vw(40);
+    width: vw(30);
+    height: vw(30);
     border-radius: 50%;
     background: rgba(18, 18, 18, 0.72);
     border: 1px solid rgba(245, 245, 245, 0.25);
     transition: background-color 0.35s var(--e-hover), rotate 0.35s var(--e-hover);
     @include sp {
-      top: vws(10);
-      right: vws(10);
-      width: vws(34);
-      height: vws(34);
+      top: vws(5);
+      right: vws(8);
+      width: vws(30);
+      height: vws(30);
     }
 
     span {
@@ -1311,31 +1323,129 @@ body.splash-is-on {
     }
   }
 
-  &__thumb {
-    position: relative;
-    min-width: 0;
-    min-height: vw(420);
-    overflow: clip;
-    background: #181818;
-    @include sp {
-      min-height: 0;
-      aspect-ratio: 16 / 10;
-    }
+  &__browser {
+    background: #101010;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.1);
+  }
 
-    img {
-      position: absolute;
-      inset: 0;
-      object-position: top left;
+  &__bar {
+    display: flex;
+    align-items: center;
+    gap: vw(16);
+    height: vw(44);
+    padding: 0 vw(56) 0 vw(18);
+    background: #1c1c1c;
+    border-bottom: 1px solid rgba(245, 245, 245, 0.08);
+    @include sp {
+      gap: vws(10);
+      height: vws(40);
+      padding: 0 vws(46) 0 vws(12);
     }
   }
 
+  &__dots {
+    display: flex;
+    flex-shrink: 0;
+    gap: vw(7);
+    @include sp {
+      gap: vws(5);
+    }
+
+    i {
+      width: vw(10);
+      height: vw(10);
+      border-radius: 50%;
+      background: rgba(245, 245, 245, 0.16);
+      @include sp {
+        width: vws(7);
+        height: vws(7);
+      }
+    }
+  }
+
+  &__url {
+    flex: 0 1 vw(440);
+    min-width: 0;
+    margin-inline: auto;
+    padding: vw(5) vw(16);
+    overflow: hidden;
+    border-radius: 999px;
+    background: rgba(255, 255, 255, 0.05);
+    font-size: vw(12);
+    letter-spacing: 0.04em;
+    color: rgba(245, 245, 245, 0.55);
+    text-align: center;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    @include sp {
+      flex-basis: auto;
+      padding: vws(4) vws(12);
+      font-size: vws(10);
+    }
+  }
+
+  /* same aspect as the 1440x900 captures, so the screenshot shows uncropped */
+  &__thumb {
+    position: relative;
+    aspect-ratio: 1440 / 900;
+    overflow: clip;
+    background: #181818;
+  }
+
+  &__shot {
+    position: absolute;
+    inset: 0;
+    object-position: top center;
+  }
+
+  /* a portrait capture gets a taller frame on phones, where 16:10 would shrink it */
+  &__thumb.is-sp {
+    @include sp {
+      aspect-ratio: 4 / 5;
+    }
+  }
+
+  &__thumb.is-sp &__shot {
+    inset: 5% 0;
+    height: 90%;
+    object-fit: contain;
+    filter: drop-shadow(0 vw(16) vw(32) rgba(0, 0, 0, 0.6));
+  }
+
+  &__thumbBg {
+    position: absolute;
+    inset: 0;
+    scale: 1.2;
+    filter: blur(28px) brightness(0.4);
+  }
+
+  /* intro (left) | technologies + link (right) */
   &__body {
+    display: grid;
+    grid-template-columns: minmax(0, 1.45fr) minmax(0, 1fr);
+    gap: vw(48);
+    padding: vw(40) vw(48) vw(44);
+    @include sp {
+      grid-template-columns: minmax(0, 1fr);
+      gap: vws(20);
+      padding: vws(20) vws(20) vws(24);
+    }
+  }
+
+  &__intro {
+    min-width: 0;
+  }
+
+  &__side {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
-    padding: vw(44) vw(44) vw(40);
+    min-width: 0;
+    padding-left: vw(40);
+    border-left: 1px solid rgba(245, 245, 245, 0.1);
     @include sp {
-      padding: vws(20) vws(20) vws(24);
+      padding: vws(20) 0 0;
+      border-left: 0;
+      border-top: 1px solid rgba(245, 245, 245, 0.1);
     }
   }
 
@@ -1374,7 +1484,7 @@ body.splash-is-on {
     }
   }
 
-  &__tech {
+  &__tech + &__tech {
     margin-top: vw(28);
     @include sp {
       margin-top: vws(18);
