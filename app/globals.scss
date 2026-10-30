@@ -42,12 +42,51 @@ $bp: 1024px;
 }
 
 /* ---------- base ---------- */
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
+/* Element resets live in the `reset` cascade layer (the same layer name Chakra UI
+   uses) so Chakra component recipes can override them; unlayered rules always win
+   over layered ones regardless of specificity. */
+@layer reset {
+  /* border-style must be solid for Tailwind `border-*` utilities and Chakra recipes
+     to draw anything: both normally rely on their own preflight, which is disabled. */
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+    border-style: solid;
+    border-color: rgba(245, 245, 245, 0.12);
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  button {
+    font-family: inherit;
+    background: none;
+    border: none;
+    color: inherit;
+    cursor: pointer;
+  }
+
+  /* form controls don't inherit the page font by default */
+  input,
+  select,
+  textarea {
+    font: inherit;
+    letter-spacing: inherit;
+    color: inherit;
+  }
 }
 
 html {
@@ -65,26 +104,6 @@ body {
 
 body.splash-is-on {
   overflow: hidden;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-img {
-  display: block;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-}
-
-button {
-  font-family: inherit;
-  background: none;
-  border: none;
-  color: inherit;
-  cursor: pointer;
 }
 
 .wrapper {
@@ -1592,5 +1611,317 @@ button {
   @include sp {
     margin-top: vws(24);
     font-size: vws(10);
+  }
+}
+
+/* ---------- contact channels ---------- */
+@property --ch-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+/* Brand colours per channel: Gmail's four colours, Chatwork's red. */
+.ch-card,
+.ch-icon {
+  --ch-accent: #7cc4ff;
+  --ch-glow: rgba(47, 123, 255, 0.35);
+  --ch-ring: conic-gradient(from var(--ch-angle), #7cc4ff, #2f7bff, #7cc4ff);
+  &[data-channel="mail"] {
+    --ch-accent: #ff6b5e;
+    --ch-glow: rgba(234, 67, 53, 0.32);
+    --ch-ring: conic-gradient(
+      from var(--ch-angle),
+      #ea4335,
+      #fbbc04 25%,
+      #34a853 50%,
+      #4285f4 75%,
+      #ea4335
+    );
+  }
+  &[data-channel="chatwork"] {
+    --ch-accent: #ff5a5f;
+    --ch-glow: rgba(240, 60, 70, 0.34);
+    --ch-ring: conic-gradient(
+      from var(--ch-angle),
+      #f03c46,
+      #ffb1b5 30%,
+      #f03c46 55%,
+      rgba(240, 60, 70, 0.15) 80%,
+      #f03c46
+    );
+  }
+}
+
+.ch-card {
+  --mx: 50%;
+  --my: 50%;
+  position: relative;
+  isolation: isolate;
+  overflow: hidden;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  gap: 26px;
+  padding: 28px 28px 28px 30px;
+  border: 1px solid rgba(245, 245, 245, 0.1);
+  border-radius: 22px;
+  background:
+    radial-gradient(120% 140% at 0% 0%, color-mix(in srgb, var(--ch-glow) 35%, transparent), transparent 55%),
+    rgba(255, 255, 255, 0.025);
+  text-align: left;
+  /* Japanese lines break between phrases rather than mid-word (Chromium) */
+  word-break: auto-phrase;
+  transition:
+    transform 0.5s var(--e-reveal),
+    border-color 0.4s var(--e-hover),
+    box-shadow 0.5s var(--e-hover);
+
+  /* pointer-following spotlight */
+  &::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+    background: radial-gradient(260px circle at var(--mx) var(--my), var(--ch-glow), transparent 70%);
+    opacity: 0;
+    transition: opacity 0.4s var(--e-hover);
+  }
+
+  &:focus-visible {
+    outline: 2px solid #7cc4ff;
+    outline-offset: 4px;
+  }
+
+  &:active {
+    transform: scale(0.985);
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      transform: translateY(-4px);
+      border-color: color-mix(in srgb, var(--ch-accent) 45%, transparent);
+      box-shadow: 0 24px 60px -20px var(--ch-glow);
+      &::before {
+        opacity: 1;
+      }
+    }
+  }
+
+  @include sp {
+    gap: 16px;
+    padding: 20px 18px;
+    border-radius: 18px;
+  }
+}
+
+.ch-card__eyebrow {
+  display: block;
+  font-family: var(--f-serif-en);
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  color: var(--ch-accent);
+}
+
+.ch-card__title {
+  display: block;
+  margin-top: 4px;
+  font-family: var(--f-serif-ja);
+  font-size: 20px;
+  letter-spacing: 0.06em;
+  color: #fff;
+  @include sp {
+    font-size: 16px;
+    letter-spacing: 0.03em;
+  }
+}
+
+.ch-card__sub {
+  display: block;
+  margin-top: 6px;
+  font-size: 13px;
+  line-height: 1.6;
+  color: rgba(245, 245, 245, 0.55);
+  @include sp {
+    font-size: 12px;
+  }
+}
+
+.ch-card__arrow {
+  display: grid;
+  flex-shrink: 0;
+  width: 40px;
+  height: 40px;
+  place-items: center;
+  border: 1px solid rgba(245, 245, 245, 0.18);
+  border-radius: 50%;
+  color: rgba(245, 245, 245, 0.75);
+  transition:
+    background-color 0.4s var(--e-hover),
+    border-color 0.4s var(--e-hover),
+    color 0.4s var(--e-hover);
+  svg {
+    width: 16px;
+    height: 16px;
+    transition: transform 0.4s var(--e-hover);
+  }
+  @media (hover: hover) {
+    .ch-card:hover & {
+      border-color: var(--ch-accent);
+      background-color: var(--ch-accent);
+      color: #fff;
+      svg {
+        transform: translateX(2px);
+      }
+    }
+  }
+  @include sp {
+    width: 34px;
+    height: 34px;
+  }
+}
+
+/* Icon: white logo tile inside a rotating brand-colour ring, with a soft glow
+   behind it and (large size only) a ripple that invites a tap. */
+.ch-icon {
+  --size: 76px;
+  --radius: 22px;
+  position: relative;
+  display: grid;
+  flex-shrink: 0;
+  width: var(--size);
+  height: var(--size);
+  place-items: center;
+  &--sm {
+    --size: 44px;
+    --radius: 13px;
+  }
+  @include sp {
+    &:not(.ch-icon--sm) {
+      --size: 62px;
+      --radius: 18px;
+    }
+  }
+}
+
+.ch-icon__glow {
+  position: absolute;
+  inset: -18%;
+  border-radius: 50%;
+  background: var(--ch-glow);
+  filter: blur(18px);
+  opacity: 0.7;
+  transition:
+    opacity 0.5s var(--e-hover),
+    transform 0.5s var(--e-hover);
+}
+
+.ch-icon__ring {
+  position: absolute;
+  inset: -4px;
+  padding: 2px;
+  border-radius: calc(var(--radius) + 4px);
+  background: var(--ch-ring);
+  -webkit-mask:
+    linear-gradient(#000 0 0) content-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+  mask:
+    linear-gradient(#000 0 0) content-box exclude,
+    linear-gradient(#000 0 0);
+  opacity: 0.75;
+  animation: ch-spin 6s linear infinite;
+  transition: opacity 0.4s var(--e-hover);
+}
+
+.ch-icon__ripple {
+  position: absolute;
+  inset: -4px;
+  border: 1px solid var(--ch-accent);
+  border-radius: calc(var(--radius) + 4px);
+  opacity: 0;
+  animation: ch-ripple 3.2s var(--e-reveal) infinite;
+  [data-channel="chatwork"] > & {
+    animation-delay: 1.6s;
+  }
+}
+
+.ch-icon__tile {
+  position: relative;
+  overflow: hidden;
+  display: grid;
+  width: 100%;
+  height: 100%;
+  place-items: center;
+  padding: 19%;
+  border-radius: var(--radius);
+  background: linear-gradient(160deg, #fff 0%, #eef0f4 100%);
+  box-shadow:
+    inset 0 1px 0 #fff,
+    0 10px 24px rgba(0, 0, 0, 0.45);
+  transition: transform 0.6s var(--e-reveal);
+
+  /* light sweep on hover */
+  &::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(115deg, transparent 35%, rgba(255, 255, 255, 0.9) 50%, transparent 65%);
+    transform: translateX(-120%);
+  }
+
+  img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    filter: drop-shadow(0 2px 3px rgba(0, 0, 0, 0.12));
+  }
+}
+
+@media (hover: hover) {
+  .ch-card:hover .ch-icon__glow {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+  .ch-card:hover .ch-icon__ring {
+    opacity: 1;
+  }
+  .ch-card:hover .ch-icon__tile {
+    transform: translateY(-3px) rotate(-6deg) scale(1.05);
+    &::after {
+      transform: translateX(120%);
+      transition: transform 0.8s var(--e-reveal);
+    }
+  }
+}
+
+@keyframes ch-spin {
+  to {
+    --ch-angle: 360deg;
+  }
+}
+
+@keyframes ch-ripple {
+  0% {
+    opacity: 0.7;
+    transform: scale(1);
+  }
+  70%,
+  100% {
+    opacity: 0;
+    transform: scale(1.35);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ch-icon__ring {
+    animation: none;
+  }
+  .ch-icon__ripple {
+    display: none;
+  }
+  .ch-card,
+  .ch-icon__tile {
+    transition: none;
   }
 }

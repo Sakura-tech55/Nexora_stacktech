@@ -94,12 +94,81 @@ const dictionaries = {
         { num: "WORKS", unit: "件", label: "公開中の制作事例", sub: "12カテゴリ・本サイトに掲載" },
       ],
     },
+    contact: {
+      formTitle: "メールで相談する",
+      formNote: "内容を確認のうえ、ご入力いただいたメールアドレスへご連絡いたします。",
+      required: "必須",
+      optional: "任意",
+      fields: {
+        name: "お名前",
+        email: "メールアドレス",
+        type: "ご相談の種類",
+        budget: "ご予算",
+        message: "ご相談内容",
+      },
+      placeholders: {
+        name: "山田 太郎",
+        email: "you@example.com",
+        message: "実現したいこと、現在の課題、ご希望の時期などをご記入ください。要件が固まっていなくても大丈夫です。",
+      },
+      selectPlaceholder: "選択してください",
+      types: {
+        web: "Web制作（LP・HP）",
+        ec: "ECサイト",
+        app: "モバイルアプリ",
+        system: "業務システム・Webアプリ",
+        ai: "生成AI・業務効率化",
+        other: "その他",
+      } as Record<string, string>,
+      budgets: {
+        undecided: "未定・相談したい",
+        lt30: "〜30万円",
+        "30to100": "30万〜100万円",
+        "100to300": "100万〜300万円",
+        gt300: "300万円〜",
+      } as Record<string, string>,
+      consent: "入力内容を、お問い合わせへの回答のためにのみ利用することに同意します（送信にはフォーム送信サービス FormSubmit を利用します）",
+      submit: "送信する",
+      sending: "送信中…",
+      successTitle: "送信が完了しました",
+      successBody: "お問い合わせありがとうございます。内容を確認のうえ、ご入力いただいたメールアドレスへご連絡いたします。",
+      again: "別の内容を送信する",
+      errors: {
+        required: "入力してください",
+        requiredSelect: "選択してください",
+        consent: "ご同意のうえ送信してください",
+        invalidEmail: "メールアドレスの形式をご確認ください",
+        invalid: "選択内容をご確認ください",
+        tooLong: "{max}文字以内でご入力ください",
+        tooShort: "{min}文字以上でご記入ください",
+      },
+      submitErrors: {
+        delivery_failed: "送信に失敗しました。時間をおいて再度お試しいただくか、Chatworkからご連絡ください。",
+        network: "通信エラーが発生しました。接続をご確認のうえ再度お試しください。",
+      } as Record<string, string>,
+      chatwork: {
+        title: "Chatworkで相談する",
+        body: "Chatworkをお使いの方は、プロフィールページからコンタクト追加のリクエストをお送りください。承認後、チャットで直接ご相談いただけます。",
+        steps: ["下のボタンからプロフィールページを開く", "Chatworkにログインする（アカウントがない場合は無料で登録できます）", "コンタクト追加のリクエストを送信する"],
+        idLabel: "Chatwork ID",
+        open: "Chatworkでリクエストを送る",
+        copy: "IDをコピー",
+        copied: "コピーしました",
+      },
+      channels: {
+        label: "ご相談方法を選んでください",
+        mailTitle: "メールで相談する",
+        mailSub: "フォームに相談内容を入力して送信",
+        chatworkTitle: "Chatworkで相談する",
+        chatworkSub: "Chatwork ID：dfs32kr32",
+      },
+      close: "閉じる",
+    },
     footer: {
       ctaEn: "CONTACT",
       ctaJa: "お問い合わせ",
       lead: "アイデアを、動くかたちに。",
       body: "新しいサイトやアプリの立ち上げ、既存システムの刷新、生成AIによる業務効率化。要件が固まる前の段階から、まずはお気軽にご相談ください。",
-      btn: "相談してみる",
       copy: "© 2026 NEXORA — Senior Full-Stack Engineer",
     },
   },
@@ -192,12 +261,81 @@ const dictionaries = {
         { num: "WORKS", unit: "", label: "Live case studies", sub: "12 categories, shown on this site" },
       ],
     },
+    contact: {
+      formTitle: "Send a message",
+      formNote: "I'll review your message and reply to the e-mail address you provide.",
+      required: "Required",
+      optional: "Optional",
+      fields: {
+        name: "Name",
+        email: "E-mail",
+        type: "Type of inquiry",
+        budget: "Budget",
+        message: "Message",
+      },
+      placeholders: {
+        name: "Taro Yamada",
+        email: "you@example.com",
+        message: "What you want to build, current challenges, preferred timeline — it's fine if requirements aren't final yet.",
+      },
+      selectPlaceholder: "Please select",
+      types: {
+        web: "Website (LP / corporate)",
+        ec: "E-commerce",
+        app: "Mobile app",
+        system: "Business system / web app",
+        ai: "Generative AI / efficiency",
+        other: "Other",
+      } as Record<string, string>,
+      budgets: {
+        undecided: "Undecided / let's discuss",
+        lt30: "Up to ¥300k",
+        "30to100": "¥300k – ¥1M",
+        "100to300": "¥1M – ¥3M",
+        gt300: "¥3M+",
+      } as Record<string, string>,
+      consent: "I agree that this information will be used only to respond to my inquiry (it is delivered through the form service FormSubmit)",
+      submit: "Send message",
+      sending: "Sending…",
+      successTitle: "Message sent",
+      successBody: "Thank you for reaching out. I'll review your message and reply to the e-mail address you provided.",
+      again: "Send another message",
+      errors: {
+        required: "This field is required",
+        requiredSelect: "Please select an option",
+        consent: "Please agree before sending",
+        invalidEmail: "Please check the e-mail format",
+        invalid: "Please check your selection",
+        tooLong: "Please keep it within {max} characters",
+        tooShort: "Please write at least {min} characters",
+      },
+      submitErrors: {
+        delivery_failed: "Sending failed. Please try again later, or reach out via Chatwork.",
+        network: "A network error occurred. Please check your connection and try again.",
+      } as Record<string, string>,
+      chatwork: {
+        title: "Talk on Chatwork",
+        body: "If you use Chatwork, send a contact request from my profile page. Once accepted, we can talk directly in chat.",
+        steps: ["Open my profile page with the button below", "Log in to Chatwork (signing up is free)", "Send a contact request"],
+        idLabel: "Chatwork ID",
+        open: "Send a request on Chatwork",
+        copy: "Copy ID",
+        copied: "Copied",
+      },
+      channels: {
+        label: "Choose how to reach me",
+        mailTitle: "Send an e-mail",
+        mailSub: "Fill in the form and send your inquiry",
+        chatworkTitle: "Talk on Chatwork",
+        chatworkSub: "Chatwork ID: dfs32kr32",
+      },
+      close: "Close",
+    },
     footer: {
       ctaEn: "CONTACT",
       ctaJa: "Get in touch",
       lead: "Let's turn ideas into working products.",
       body: "A new site or app, a legacy system overhaul, or streamlining work with generative AI — reach out even before your requirements are final.",
-      btn: "Start a conversation",
       copy: "© 2026 NEXORA — Senior Full-Stack Engineer",
     },
   },
@@ -215,18 +353,26 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
   const [lang, setLang] = useState<Lang>("ja");
 
   useEffect(() => {
-    const saved = window.localStorage.getItem("lang") as Lang | null;
-    if (saved === "en" || saved === "ja") setLang(saved);
+    try {
+      const saved = window.localStorage.getItem("lang");
+      if (saved === "en" || saved === "ja") setLang(saved);
+    } catch {}
   }, []);
 
   useEffect(() => {
     document.documentElement.lang = lang;
-    try {
-      window.localStorage.setItem("lang", lang);
-    } catch {}
   }, [lang]);
 
-  const toggle = () => setLang((l) => (l === "ja" ? "en" : "ja"));
+  // Persist only on an explicit toggle: persisting from an effect wrote the default
+  // "ja" back to storage on mount, and React StrictMode then re-read that value.
+  const toggle = () =>
+    setLang((l) => {
+      const next = l === "ja" ? "en" : "ja";
+      try {
+        window.localStorage.setItem("lang", next);
+      } catch {}
+      return next;
+    });
 
   return (
     <LangContext.Provider value={{ lang, dict: dictionaries[lang] as Dict, toggle }}>

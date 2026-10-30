@@ -4,11 +4,19 @@ import { ChakraProvider, createSystem, defaultConfig, defineConfig } from "@chak
 import type { ReactNode } from "react";
 
 const config = defineConfig({
-  // app/globals.scss owns the reset and base element styles
-  preflight: false,
+  // app/globals.scss owns the reset and base element styles. The preflight is scoped to
+  // a selector that never matches rather than turned off: with `preflight: false` Chakra
+  // emits an empty `@layer reset` that runs into the next rule, and the browser then
+  // drops the whole base layer — including the keyframes dialogs need to close.
+  preflight: { scope: "[data-chakra-preflight]" },
   cssVarsPrefix: "ck",
   globalCss: {
-    html: { colorPalette: "blue" },
+    // revert-layer cancels Chakra's default base styles, so the page looks exactly as
+    // app/globals.scss and the browser defaults make it (e.g. body's "palt" still inherits)
+    "*": { fontFeatureSettings: "revert-layer" },
+    html: { colorPalette: "blue", color: "revert-layer", bg: "revert-layer", lineHeight: "revert-layer" },
+    "*::placeholder, *[data-placeholder]": { color: "revert-layer" },
+    "*::selection": { bg: "revert-layer" },
   },
   theme: {
     tokens: {

@@ -2,6 +2,7 @@
 
 import { useLang } from "@/lib/i18n";
 import worksData from "@/lib/works.json";
+import ContactChannels from "@/components/ContactChannels";
 
 const WORKS_COUNT = worksData.length;
 
@@ -145,13 +146,8 @@ export function Footer() {
         <p className="footer__txt" data-pulse-cardio-inview>
           <span data-pulse-cardio-child>{dict.footer.body}</span>
         </p>
-        <div className="Btn">
-          <a href="mailto:nobu.web.work@gmail.com">
-            <p>{dict.footer.btn}</p>
-            <span className="Icon" aria-hidden="true"><span /></span>
-          </a>
-        </div>
       </div>
+      <ContactChannels />
       <div className="footer__bottom">
         <p className="footer__logo" data-burst-inview>NEXORA</p>
         <p className="footer__copy">{dict.footer.copy}</p>
